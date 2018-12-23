@@ -1,0 +1,35 @@
+vertex_program OverlayVS glsl
+{
+    source ScreenSpaceVS.glsl
+
+    default_params
+    {
+    }
+}
+
+fragment_program OverlayPS glsl
+{
+    source GUIOverlayPS.glsl
+}
+
+material GUIOverlay
+{    
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            depth_write off
+            depth_check off
+
+            vertex_program_ref OverlayVS
+            {
+            }
+            fragment_program_ref OverlayPS
+            {
+            }
+
+        }
+    }
+}
+
