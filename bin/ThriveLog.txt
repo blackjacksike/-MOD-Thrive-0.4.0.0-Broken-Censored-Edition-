@@ -1,0 +1,195 @@
+Start of Leviathan log for leviathan version: 0.8.0.0
+Writing to file "ThriveLog.txt"
+------------------------TIME: 20:07:32 Saturday 22.12.2018 (Est)------------------------
+[INFO] Engine: Command line: 
+[WARNING] ConsoleInput: Stdin read failed, stopping input thread
+[INFO] NetworkHandler: running listening socket on port 54746
+[INFO] NetworkHandler: Fetching new master server list...
+[INFO] NetworkHandler: no stored list of master servers, waiting for the update to finish
+[INFO] FileSystem: found 491 files in Data folder with 38 different types of extensions
+[INFO] FileSystem: vectors sorted and indexes created, took 0 micro seconds
+[INFO] GameModuleLoader: detected following module files: 
+[INFO] 	./Data/Scripts/microbe_stage/microbe_editor/microbe_editor.levgm which contains module "microbe_editor"
+[INFO] 	./Data/Scripts/microbe_stage/microbe_stage.levgm which contains module "microbe_stage"
+[INFO] Detected audio devices: 
+[INFO] > OpenAL Soft on Haut-parleurs (Logitech G430 Gaming Headset)
+[INFO] > OpenAL Soft on Haut-parleurs (Realtek High Definition Audio)
+[INFO] > OpenAL Soft on 4 - Acer KG221Q (2- AMD High Definition Audio Device)
+[INFO] End of devices
+[INFO] SoundDevice: Initializing sound with device: OpenAL Soft on Haut-parleurs (Logitech G430 Gaming Headset)
+[ERROR] Graphics: Init: no selected render system, invalid variable RenderSystemName, not found/wrong type
+[INFO] Graphics: preferred rendering system: "OpenGL.*"
+[INFO] SDL: display count: 1
+[INFO] Display(0, Moniteur Plug-and-Play générique): top left: (0, 0) size: 1920x1080
+[INFO] ScopeTimer: Leviathan::ThreadingManager::MakeThreadsWorkWithOgre Stopped elapsed: 0 s (0 micro seconds)
+[INFO] Graphics: Loading Ogre HLMS
+[INFO] Graphics: Ogre HLMS loaded
+[INFO] Engine init took 712 ms
+[INFO] ThriveCommon: loading main scripts
+[INFO] ThriveGame: script loading succeeded
+[INFO] Calling global setup script setupProcesses
+[INFO] Finished calling the above setup script
+[INFO] Calling global setup script setupOrganelles
+[INFO] Finished calling the above setup script
+[INFO] Finished calling script setup
+[INFO] GuiManager: loading GUI: http://leviathan-local/Data/Scripts/gui/thrive_gui.html
+[INFO] Engine successfully initialized
+[INFO] Engine: PreFirstTick: everything fine to start running
+TODO: this needs some property when a custom cursor is used
+[INFO] CefApplication: sending extension to renderer process: ThriveJSInterface
+[INFO] [FFMPEG] Input #0, matroska,webm, from 'Data/Videos/intro.mkv':
+[INFO] [FFMPEG]   Metadata:
+[INFO] [FFMPEG]     ENCODER         : Lavf58.20.100
+[INFO] [FFMPEG]   Duration: 00:00:16.71, start: 0.000000, bitrate: 6189 kb/s
+[INFO] [FFMPEG]     Stream #0:0: Video: vp9, gbrp(pc, gbr/unknown/unknown), 1920x1080, 24 fps, 24 tbr, 1k tbn, 1k tbc (default)
+[INFO] [FFMPEG]     Metadata:
+[INFO] [FFMPEG]       ENCODER         : Lavc58.18.100 libvpx-vp9
+[INFO] [FFMPEG]       DURATION        : 00:00:16.710000000
+[INFO] [FFMPEG]     Stream #0:1(eng): Audio: vorbis, 48000 Hz, stereo, fltp (default)
+[INFO] [FFMPEG]     Metadata:
+[INFO] [FFMPEG]       HANDLER_NAME    : #Mainconcept MP4 Sound Media Handler
+[INFO] [FFMPEG]       ENCODER         : Lavc58.35.100 libvorbis
+[INFO] [FFMPEG]       DURATION        : 00:00:16.643000000
+[INFO] VideoPlayer: successfully opened all the ffmpeg streams for video file
+[INFO] VideoPlayer: Created video texture: 1920x1080
+[INFO] VideoPlayer: Starting audio playback from the video...
+[INFO] Focus change in Window
+[ERROR] NetworkHandler: failed to update the master server list, using the old list
+[INFO] Focus change in Window
+[INFO] SDL window resize: 1920x1018
+[INFO] GuiView: recreated texture for CEF browser
+[WARNING] [FFMPEG] [swscaler @ 000000000E3C4B80] No accelerated colorspace conversion found from yuv420p to rgba.
+[INFO] [FFMPEG] Input #0, matroska,webm, from 'Data/Videos/MicrobeIntro.mkv':
+[INFO] [FFMPEG]   Metadata:
+[INFO] [FFMPEG]     title           : ThriveIntroNew
+[INFO] [FFMPEG]     DATE            : 2018-09-12
+[INFO] [FFMPEG]     COMMENT         : 
+[INFO] [FFMPEG]     ARTIST          : 
+[INFO] [FFMPEG]     PUBLISHER       : 
+[INFO] [FFMPEG]     COPYRIGHT       : 
+[INFO] [FFMPEG]     ENCODER         : Lavf58.12.100
+[INFO] [FFMPEG]   Duration: 00:00:12.55, start: 0.000000, bitrate: 1879 kb/s
+[INFO] [FFMPEG]     Stream #0:0: Video: vp9, yuv420p(tv), 1920x1080, SAR 1:1 DAR 16:9, 60 fps, 60 tbr, 1k tbn, 1k tbc (default)
+[INFO] [FFMPEG]     Metadata:
+[INFO] [FFMPEG]       ENCODER         : Lavc58.18.100 libvpx-vp9
+[INFO] [FFMPEG]       DURATION        : 00:00:12.551000000
+[INFO] [FFMPEG]     Stream #0:1: Audio: vorbis, 44100 Hz, stereo, fltp (default)
+[INFO] [FFMPEG]     Metadata:
+[INFO] [FFMPEG]       ENCODER         : Lavc58.18.100 libvorbis
+[INFO] [FFMPEG]       DURATION        : 00:00:12.516000000
+[INFO] VideoPlayer: successfully opened all the ffmpeg streams for video file
+[INFO] VideoPlayer: Created video texture: 1920x1080
+[INFO] VideoPlayer: Starting audio playback from the video...
+[INFO] Got start game message from GUI process
+[INFO] New game started
+[INFO] ThriveGame: startNewGame: Creating new cellstage world
+[INFO] CompoundCloudSystem doing initial spawning
+[INFO] Initializing a new compound cloud entity
+[INFO] Initializing a new compound cloud entity
+[INFO] Initializing a new compound cloud entity
+[INFO] Initializing a new compound cloud entity
+[INFO] Initializing a new compound cloud entity
+[INFO] Initializing a new compound cloud entity
+[INFO] Initializing a new compound cloud entity
+[INFO] Initializing a new compound cloud entity
+[INFO] Initializing a new compound cloud entity
+[INFO] Calling world setup script setupScriptsForWorld
+[INFO] created starter microbe "Default", species entity = 27
+[INFO] setupSpecies created 1 species
+[INFO] TODO: hud
+[INFO] DEBUG: positionOrganelles stringCode: NYmFVFVFMFFHM
+[INFO] DEBUG: positionOrganelles stringCode: NYFFMVFYFH
+[INFO] DEBUG: positionOrganelles stringCode: NYYYYYFIHYmYYFYYYVYYYYMYM
+[INFO] DEBUG: positionOrganelles stringCode: NYIYFMF
+[INFO] DEBUG: positionOrganelles stringCode: NYVIVVV
+[INFO] Generating EPIC cell
+[INFO] DEBUG: positionOrganelles stringCode: NYCHFTFMVhMYIMHVHFFIVVYVFIFHFTFCFFFFVFImICFhFhFMMMMFFFmMMHMVFCVChMFFMVV
+[INFO] DEBUG: positionOrganelles stringCode: NYYYYFHTVYYYIHY
+[INFO] DEBUG: positionOrganelles stringCode: h
+[INFO] DEBUG: positionOrganelles stringCode: hhh
+[INFO] DEBUG: positionOrganelles stringCode: mm
+[INFO] DEBUG: positionOrganelles stringCode: mm
+[INFO] setting up spawn information
+[INFO] setting up free floating organelles
+[INFO] setting up player species to spawn
+[INFO] adding spawn player species: Default
+[INFO] Finished calling setupScriptsForWorld
+[INFO] Creating background item
+[INFO] setting random biome
+[INFO] Setting biome to: 6
+[INFO] biomeCompounds.length = 4
+[INFO] registering cloud: 0, density: 2e-05
+[INFO] registering cloud: 2, density: 2e-05
+[INFO] registering cloud: 3, density: 2e-05
+[INFO] registering cloud: 5, density: 2e-05
+[INFO] Diffuse Colours For Biome r:0.98g:0.7b:0.75
+[INFO] specular Colours For Biome r:0.98g:0.7b:0.75
+[INFO] Diffused Oxygen For Biome 0.21
+[INFO] Diffused C02 For Biome 0.09
+[INFO] Setting microbe background to: Background_Cave
+[INFO] Destroying background item
+[INFO] Creating background item
+[INFO] Active player creature is now: 39
+[INFO] Spawning a cell from player species: Default
+[INFO] Spawning a cell from player species: Default
+[INFO] Model: chloroplast.mesh
+[INFO] TODO: organelle unlock progress if cell: 39 is the player
+[INFO] Model: chloroplast.mesh
+[INFO] TODO: organelle unlock progress if cell: 39 is the player
+[INFO] Spawning a cell from player species: Default
+[INFO] Spawning a cell from player species: Default
+[INFO] Spawning a cell from player species: Default
+[INFO] Spawning a cell from player species: Default
+[INFO] Spawning a cell from player species: Default
+[INFO] Focus change in Window
+[INFO] Spawning a cell from player species: Default
+[INFO] Focus change in Window
+[INFO] Focus change in Window
+[INFO] setting random biome
+[INFO] Setting biome to: 2
+[INFO] biomeCompounds.length = 4
+[INFO] registering cloud: 0, density: 2e-05
+[INFO] registering cloud: 2, density: 2e-05
+[INFO] registering cloud: 3, density: 2e-05
+[INFO] registering cloud: 5, density: 2e-05
+[INFO] Diffuse Colours For Biome r:0.98g:0.7b:0.75
+[INFO] specular Colours For Biome r:0.98g:0.7b:0.75
+[INFO] Diffused Oxygen For Biome 0.21
+[INFO] Diffused C02 For Biome 0.09
+[INFO] Setting microbe background to: Background
+[INFO] Destroying background item
+[INFO] Creating background item
+[INFO] Spawning a cell from player species: Default
+[INFO] Spawning a cell from player species: Default
+[INFO] Spawning a cell from player species: Default
+[INFO] Spawning a cell from player species: Default
+[INFO] Spawning a cell from player species: Default
+[INFO] Focus change in Window
+[INFO] JS API Quit called from GUI View: 7
+[INFO] Application: starting real close
+[INFO] Successfully stopped command handling
+[INFO] Destroying background item
+[WARNING] ScriptExecutor: GetScriptModuleByFunction: the module is no longer available: ./Data/Scripts/microbe_stage/microbe_stage.levgm_;1
+[WARNING] ScriptExecutor: GetScriptModuleByFunction: the module is no longer available: ./Data/Scripts/microbe_stage/microbe_stage.levgm_;1
+[WARNING] ScriptExecutor: GetScriptModuleByFunction: the module is no longer available: ./Data/Scripts/microbe_stage/microbe_stage.levgm_;1
+[WARNING] ScriptExecutor: GetScriptModuleByFunction: the module is no longer available: ./Data/Scripts/microbe_stage/microbe_stage.levgm_;1
+[INFO] Species Species_8509 has been extinguished
+[INFO] Species Species_576 has been extinguished
+[INFO] Species Species_2269 has been extinguished
+[INFO] Species Species_5626 has been extinguished
+[INFO] Species Species_1364 has been extinguished
+[INFO] Species Species_5079 has been extinguished
+[INFO] Species Species_3843 has been extinguished
+[INFO] Species Bacteria_3838 has been extinguished
+[INFO] Species Bacteria_8181 has been extinguished
+[INFO] Species Bacteria_10 has been extinguished
+[INFO] Species Bacteria_5169 has been extinguished
+[INFO] Thrive EnginePreShutdown ran
+[INFO] Engine: prerelease done, waiting for a tick
+[INFO] Engine: performing final release tick
+[WARNING] GameWorld: unlink from window called while this wasn't linked to a window
+[INFO] GuiManager: Gui successfully closed on window
+[INFO] Window: closing window(1)
+[INFO] Window: all windows have been closed, should quit soon
+TODO: check why calling SDL_DestroyWindow crashes in Ogre GLX plugin uninstall
+Goodbye cruel world!

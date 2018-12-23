@@ -1,0 +1,4 @@
+[1222/163753.326:INFO:CONSOLE(255)] "failed to play microbe intro video: can't play multiple cutscenes at the same time", source: http://leviathan-local/Data/Scripts/gui/main_menu.mjs (255)
+[1222/183541.189:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[1222/190449.556:WARNING:ceflocalresourcerequest.cpp(62)] GET missing local file: Data/Textures/gui/bevel/EditPanelHeaderHover.png
+
