@@ -1,0 +1,20 @@
+{
+    "default": {
+        "spawnDensity": 0.00007,
+        "colour": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+        },
+
+        "startingCompounds": {
+            "glucose": 95,
+			"atp": 95
+        },
+
+        "organelles": {
+        },
+		"membranetype": 0,
+		"isBacteria": false
+    }
+}
