@@ -1,0 +1,23 @@
+// Compositor for GUI quads to be drawn over the normal scene
+compositor_node GUIRenderNode
+{
+    in 0 renderwindow
+    
+    target renderwindow
+    {
+        // Don't clear colour
+        pass clear
+        {
+            buffers depth stencil
+        }
+        pass render_scene
+        {
+        }
+    }
+}
+
+
+workspace OverlayWorkspace
+{
+    connect_output GUIRenderNode 0
+}

@@ -1,0 +1,1 @@
+Files in this directory are core resources that are needed from Ogre (with possibly some modifications) for Leviathan to function. Additional test assets etc are in the Data folder in their sub directories.
