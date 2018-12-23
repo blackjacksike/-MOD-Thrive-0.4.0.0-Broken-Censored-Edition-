@@ -1,0 +1,42 @@
+// The main module that has all of the microbe scripts
+
+// This isn't used for anything, increase if you want
+Version = 1;
+
+
+o GameModule "microbe_stage"{
+    t sourcefiles{
+        // It is possible for these files to also include more stuff, but maybe it is clearer
+        // if everything is also listed here
+        setup.as
+        configs.as
+        organelle_table.as
+        organelle.as
+        organelle_component.as
+        organelle_placement.as
+        microbe_operations.as
+        microbe.as
+        species_system.as
+        procedural_microbes.as
+        microbe_ai.as
+        hex.as
+        biome.as
+
+        microbe_stage_hud.as
+
+        // This would maybe ideally be a separate module but there needs to be a lot
+        // of untangling to allow proper sharing of the parts that are used by both
+        microbe_editor/microbe_editor.as
+        microbe_editor/microbe_editor_hud.as
+        microbe_editor/setup.as
+    }
+
+    t import{
+        // microbe_common
+    }
+    
+    l properties{
+
+        ExtraAccess = "FullFileSystem";
+    }
+}
