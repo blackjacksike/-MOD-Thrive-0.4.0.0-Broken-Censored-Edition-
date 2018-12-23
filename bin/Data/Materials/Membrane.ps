@@ -1,0 +1,15 @@
+#version 330
+
+uniform sampler2D membraneTex;
+uniform vec4 membraneColour;
+
+in vec2 UV;
+out vec4 color;
+in vec4 vp_color;
+
+void main()
+{
+	//vp color is always 0,0,0,1 for some reason i dont know why, ill fix it tomorrow
+	color = texture2D(membraneTex, UV) * membraneColour;
+
+}

@@ -1,0 +1,146 @@
+
+// TODO: move to new file
+// THIS IS WHERE THE THRIVE MISSING MATERIAL IS DEFINED
+material _missing_material_
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.2 0.2 0.2 0.4
+            diffuse 0.6 0.6 0.6 0.4
+            specular 0.5 0.5 0.5 0.4 12.5
+            emissive 0.3 0.3 0.3 0.4
+
+			// scene_blend alpha_blend  
+            depth_write on
+        }
+    }
+}
+
+// center genrated by blender2ogre 0.6.0
+
+material center 
+{
+    technique
+    {
+        pass center
+        {
+            ambient 0.2 0.2 0.2 0.4
+            diffuse 0.6 0.6 0.6 0.4
+            specular 0.5 0.5 0.5 0.4 12.5
+            emissive 0.3 0.3 0.3 0.4
+
+			// scene_blend alpha_blend  
+            depth_write on
+        }
+    }
+}
+// bottom_right genrated by blender2ogre 0.6.0
+
+material bottom_right 
+{
+    technique
+    {
+        pass bottom_right
+        {
+            ambient 0.2 0.2 0.2 0.4
+            diffuse 0.6 0.6 0.6 0.4
+            specular 0.5 0.5 0.5 0.4 12.5
+            emissive 0.3 0.3 0.3 0.4
+
+			// scene_blend alpha_blend  
+            depth_write on
+        }
+    }
+}
+// bottom genrated by blender2ogre 0.6.0
+
+material bottom 
+{
+    technique
+    {
+        pass bottom
+        {
+            ambient 0.2 0.2 0.2 0.4
+            diffuse 0.6 0.6 0.6 0.4
+            specular 0.5 0.5 0.5 0.4 12.5
+            emissive 0.3 0.3 0.3 0.4
+
+			// scene_blend alpha_blend  
+            depth_write on
+        }
+    }
+}
+// bottom_left genrated by blender2ogre 0.6.0
+
+material bottom_left 
+{
+    technique
+    {
+        pass bottom_left
+        {
+            ambient 0.2 0.2 0.2 0.4
+            diffuse 0.6 0.6 0.6 0.4
+            specular 0.5 0.5 0.5 0.4 12.5
+            emissive 0.3 0.3 0.3 0.4
+
+			// scene_blend alpha_blend  
+            depth_write on
+        }
+    }
+}
+// top_left genrated by blender2ogre 0.6.0
+
+material top_left 
+{
+    technique
+    {
+        pass top_left
+        {
+            ambient 0.2 0.2 0.2 0.4
+            diffuse 0.6 0.6 0.6 0.4
+            specular 0.5 0.5 0.5 0.4 12.5
+            emissive 0.3 0.3 0.3 0.4
+
+			// scene_blend alpha_blend  
+            depth_write on
+        }
+    }
+}
+// top genrated by blender2ogre 0.6.0
+
+material top 
+{
+    technique
+    {
+        pass top
+        {
+            ambient 0.2 0.2 0.2 0.4
+            diffuse 0.6 0.6 0.6 0.4
+            specular 0.5 0.5 0.5 0.4 12.5
+            emissive 0.3 0.3 0.3 0.4
+
+			// scene_blend alpha_blend  
+            depth_write on
+        }
+    }
+}
+// top_right genrated by blender2ogre 0.6.0
+
+material top_right 
+{
+    technique
+    {
+        pass top_right
+        {
+            ambient 0.2 0.2 0.2 0.4
+            diffuse 0.6 0.6 0.6 0.4
+            specular 0.5 0.5 0.5 0.4 12.5
+            emissive 0.3 0.3 0.3 0.4
+
+			// scene_blend alpha_blend  
+            depth_write on
+        }
+    }
+}

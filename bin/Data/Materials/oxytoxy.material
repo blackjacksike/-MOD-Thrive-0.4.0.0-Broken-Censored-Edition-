@@ -1,0 +1,37 @@
+material Oxytoxy_obj#1
+{
+	technique
+	{
+		pass
+		{
+            // lighting off
+            
+            // scene_blend alpha_blend
+			// depth_write off
+            
+            vertex_program_ref Organelle_VS
+            {
+                param_named_auto worldViewProj worldviewproj_matrix
+                param_named_auto time time_0_2pi 30
+                param_named size float 0.03
+                param_named maxRot float 10
+            }
+            fragment_program_ref Organelle_PS
+            {
+                param_named tex int 0
+                param_named_auto organelleColour custom 1                
+            }
+
+            texture_unit 
+            {
+                texture oxytoxy.png gamma
+                // alpha_op_ex source1 src_manual src_current .7
+            }
+            
+			//ambient 0.64 0.64 0.64 1
+			//diffuse 0.64 0.64 0.64 1
+			//specular 0.5 0.5 0.5 1
+		}
+	}
+}
+

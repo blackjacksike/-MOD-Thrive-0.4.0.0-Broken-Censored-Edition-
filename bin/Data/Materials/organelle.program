@@ -1,0 +1,9 @@
+vertex_program Organelle_VS glsl            
+{
+    source organelle.vs
+}
+
+fragment_program Organelle_PS glsl
+{
+    source organelle.ps
+}

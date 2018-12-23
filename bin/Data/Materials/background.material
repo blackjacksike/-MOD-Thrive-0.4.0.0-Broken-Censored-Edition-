@@ -1,0 +1,415 @@
+material Background
+{
+    //Epipelagic
+    technique
+    {
+        pass
+        {
+            // scene_blend alpha_blend
+            depth_write off
+            depth_check off
+
+            vertex_program_ref Background_VS
+            {
+            }
+            fragment_program_ref Background_PS
+            {
+            }
+            texture_unit 0
+            {
+            	tex_coord_set 0
+                texture background/Thrive_ocean0.png 2d gamma
+            }
+            texture_unit 1
+            {
+            	tex_coord_set 1
+                texture background/Thrive_ocean1.png 2d gamma
+            }
+            texture_unit 2
+            {
+            	tex_coord_set 2
+                texture background/Thrive_ocean2.png 2d gamma
+            }
+            texture_unit 3
+            {
+            	tex_coord_set 3
+                texture background/Thrive_ocean3.png 2d gamma
+            }
+        }
+    }
+}
+
+material Background_Vent
+{
+    technique
+    {
+        pass
+        {
+            // scene_blend alpha_blend
+            depth_write off
+            depth_check off
+
+            vertex_program_ref Background_VS
+            {
+            }
+            fragment_program_ref Background_PS
+            {
+            }
+            texture_unit 0
+            {
+            	tex_coord_set 0
+                texture background/Thrive_vent0.png 2d gamma
+            }
+            texture_unit 1
+            {
+            	tex_coord_set 1
+                texture background/Thrive_vent1.png 2d gamma
+            }
+            texture_unit 2
+            {
+            	tex_coord_set 2
+                texture background/Thrive_vent2.png 2d gamma
+            }
+            texture_unit 3
+            {
+            	tex_coord_set 3
+                texture background/Thrive_vent3.png 2d gamma
+            }
+        }
+    }
+}
+
+material Background_Bathypalagic
+{
+    technique
+    {
+        pass
+        {
+            // scene_blend alpha_blend
+            depth_write off
+            depth_check off
+
+            vertex_program_ref Background_VS
+            {
+            }
+            fragment_program_ref Background_PS
+            {
+            }
+            texture_unit 0
+            {
+            	tex_coord_set 0
+                texture background/Thrive_abyss0.png 2d gamma
+            }
+            texture_unit 1
+            {
+            	tex_coord_set 1
+                texture background/Thrive_abyss1.png 2d gamma
+            }
+            texture_unit 2
+            {
+            	tex_coord_set 2
+                texture background/Thrive_abyss2.png 2d gamma
+            }
+            texture_unit 3
+            {
+            	tex_coord_set 3
+                texture background/Thrive_abyss3.png 2d gamma
+            }
+        }
+    }
+}
+material Background_Tidepool
+{
+    technique
+    {
+        pass
+        {
+            // scene_blend alpha_blend
+            depth_write off
+            depth_check off
+
+            vertex_program_ref Background_VS
+            {
+            }
+            fragment_program_ref Background_PS
+            {
+            }
+            texture_unit 0
+            {
+            	tex_coord_set 0
+                texture background/Thrive_tidepool0.png 2d gamma
+            }
+            texture_unit 1
+            {
+            	tex_coord_set 1
+                texture background/Thrive_tidepool1.png 2d gamma
+            }
+            texture_unit 2
+            {
+            	tex_coord_set 2
+                texture background/Thrive_tidepool2.png 2d gamma
+            }
+            texture_unit 3
+            {
+            	tex_coord_set 3
+                texture background/Thrive_tidepool3.png 2d gamma
+            }
+        }
+    }
+}
+material Background_Coastal
+{
+    technique
+    {
+        pass
+        {
+            // scene_blend alpha_blend
+            depth_write off
+            depth_check off
+
+            vertex_program_ref Background_VS
+            {
+            }
+            fragment_program_ref Background_PS
+            {
+            }
+            texture_unit 0
+            {
+            	tex_coord_set 0
+                texture background/Thrive_shallow0.png 2d gamma
+            }
+            texture_unit 1
+            {
+            	tex_coord_set 1
+                texture background/Thrive_shallow1.png 2d gamma
+            }
+            texture_unit 2
+            {
+            	tex_coord_set 2
+                texture background/Thrive_shallow2.png 2d gamma
+            }
+            texture_unit 3
+            {
+            	tex_coord_set 3
+                texture background/Thrive_shallow3.png 2d gamma
+            }
+        }
+    }
+}
+
+material Background_Cave
+{
+    technique
+    {
+        pass
+        {
+            // scene_blend alpha_blend
+            depth_write off
+            depth_check off
+
+            vertex_program_ref Background_VS
+            {
+            }
+            fragment_program_ref Background_PS
+            {
+            }
+            texture_unit 0
+            {
+            	tex_coord_set 0
+                texture background/Thrive_cave0.png 2d gamma
+            }
+            texture_unit 1
+            {
+            	tex_coord_set 1
+                texture background/Thrive_cave1.png 2d gamma
+            }
+            texture_unit 2
+            {
+            	tex_coord_set 2
+                texture background/Thrive_cave2.png 2d gamma
+            }
+            texture_unit 3
+            {
+            	tex_coord_set 3
+                texture background/Thrive_cave3.png 2d gamma
+            }
+        }
+    }
+}
+
+material Background_Iceshelf
+{
+    technique
+    {
+        pass
+        {
+            // scene_blend alpha_blend
+            depth_write off
+            depth_check off
+
+            vertex_program_ref Background_VS
+            {
+            }
+            fragment_program_ref Background_PS
+            {
+            }
+            texture_unit 0
+            {
+            	tex_coord_set 0
+                texture background/Thrive_iceshelf0.png 2d gamma
+            }
+            texture_unit 1
+            {
+            	tex_coord_set 1
+                texture background/Thrive_iceshelf1.png 2d gamma
+            }
+            texture_unit 2
+            {
+            	tex_coord_set 2
+                texture background/Thrive_iceshelf2.png 2d gamma
+            }
+            texture_unit 3
+            {
+            	tex_coord_set 3
+                texture background/Thrive_iceshelf3.png 2d gamma
+            }
+        }
+    }
+}
+
+material Background_Mesopelagic
+{
+    technique
+    {
+        pass
+        {
+            // scene_blend alpha_blend
+            depth_write off
+            depth_check off
+
+            vertex_program_ref Background_VS
+            {
+            }
+            fragment_program_ref Background_PS
+            {
+            }
+            texture_unit 0
+            {
+            	tex_coord_set 0
+                texture background/Thrive_meso0.png 2d gamma
+            }
+            texture_unit 1
+            {
+            	tex_coord_set 1
+                texture background/Thrive_meso1.png 2d gamma
+            }
+            texture_unit 2
+            {
+            	tex_coord_set 2
+                texture background/Thrive_meso2.png 2d gamma
+            }
+            texture_unit 3
+            {
+            	tex_coord_set 3
+                texture background/Thrive_meso3.png 2d gamma
+            }
+        }
+    }
+}
+// TODO: remake these if these are used
+// material background/blue_01
+// {
+//     technique
+//     {
+//         pass
+//         {
+//             ambient 1.0 1.0 1.0
+
+//             texture_unit
+//             {
+//                 texture "background/ThriveBlue_Base.png" gamma
+//             }
+//         }
+//     }
+// }
+
+// material background/blue_02
+// {
+//     technique
+//     {
+//         pass
+//         {
+//             ambient 1.0 1.0 1.0
+
+//             texture_unit
+//             {
+//                 texture "background/blue_02.png" gamma
+//             }
+//         }
+//     }
+// }
+
+// material background/brown_01
+// {
+//     technique
+//     {
+//         pass
+//         {
+//             ambient 1.0 1.0 1.0
+
+//             texture_unit
+//             {
+//                 texture "background/brown_01.png" gamma
+//             }
+//         }
+//     }
+// }
+
+// material background/brown_02
+// {
+//     technique
+//     {
+//         pass
+//         {
+//             ambient 1.0 1.0 1.0
+
+//             texture_unit
+//             {
+//                 texture "background/brown_02.png" gamma
+//             }
+//         }
+//     }
+// }
+
+// material background/green_01
+// {
+//     technique
+//     {
+//         pass
+//         {
+//             ambient 1.0 1.0 1.0
+
+//             texture_unit
+//             {
+//                 texture "background/green_01.png" gamma
+//             }
+//         }
+//     }
+// }
+
+// material background/red_01
+// {
+//     technique
+//     {
+//         pass
+//         {
+//             ambient 1.0 1.0 1.0
+
+//             texture_unit
+//             {
+//                 texture "background/red_01.png" gamma
+//             }
+//         }
+//     }
+// }
+

@@ -1,0 +1,34 @@
+vertex_program CompoundCloud_VS glsl
+{
+    source compoundClouds.vs
+
+    default_params
+    {
+        param_named_auto worldViewProj worldviewproj_matrix
+    }
+}
+
+fragment_program CompoundCloud_PS glsl
+{
+    source compoundClouds.ps
+
+    default_params
+    {
+        param_named cloudTexture int 0
+        param_named perlinNoise int 1
+        // Default to black to not affect the colour
+        param_named cloudColour1 float4 0 0 0 0
+        param_named cloudColour2 float4 0 0 0 0
+        param_named cloudColour3 float4 0 0 0 0
+        param_named cloudColour4 float4 0 0 0 0
+    }
+}
+
+// The material is now created from scratch
+// // Empty material. It is filled in in compound_cloud_system::update().
+// material CompoundClouds
+// {
+//     technique
+//     {
+//     }
+// }

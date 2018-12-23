@@ -1,0 +1,35 @@
+// MaterialArrow2 genrated by blender2ogre 0.6.0
+
+material MaterialArrow2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass MaterialArrow2
+        {
+            ambient 0.023453595116734505 0.09988178312778473 0.14536581933498383 0.75
+            diffuse 0.07505150549190498 0.3196217107716457 0.46517062880353066 0.75
+            specular 0.5 0.5 0.5 0.75 12.5
+            emissive 0.02814431525843597 0.11985814451607624 0.174438990133563 0.75
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            // lighting on
+            // normalise_normals off
+            polygon_mode solid
+            // scene_blend alpha_blend
+            // scene_blend_op add
+            shading gouraud
+            // transparent_sorting on
+
+        }
+    }
+}
